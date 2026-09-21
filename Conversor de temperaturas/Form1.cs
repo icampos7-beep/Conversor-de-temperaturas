@@ -29,7 +29,7 @@ namespace Conversor_de_temperaturas
             try
             {
                 double grados;
-                //Si se escribe en la caja e texto grdos centigrados...
+                //Si se escribe en la caja de texto grdos centigrados...
                 if(objTextBox == txtCen)
                 {
                     grados = Convert.ToDouble(txtCen.Text);
